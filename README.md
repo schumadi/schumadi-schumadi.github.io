@@ -36,49 +36,28 @@ High number of listings tend to decrease the review score. Hosts with a high res
 We will have a closer look at these superhosts in the following section.
 
 ## Superhosts and hosts: In what way are they different?
-AirBnB states that one element of becoming a superhost are positive reviews. Positive reviews should lead to good review scores. 
+AirBnB states that one element of becoming a superhost are positive reviews. Positive reviews should lead to good review scores. The following histogram  clearly supports that connection. The review score ratings in general have a quite wide range, but those of superhosts are concentrated in the range from 90 to 100.
 
-![History plot of review scores](histplot-review-sccores.jpg)
+Amneties offered by the hosts are part of the dataset. Therefore it is possible to make a comparison between amneties offered by superhost and non-superhosts. The table below shows the amneties that are offered more often by superhosts than non-superhosts.
+
+![Table of amneties](table-amneties-top.png)
+
+Laptop friendly workspaces are the amnety with the largest difference between superhosts and non-superhosts. They are offered in 37.64%	of superhost listings and in 34.65%	of the non-superhost listings.
+
+Apart from amneties the prices for offers by superhosts could be different. At least one could expect that when the attribute 'super' is used for these hosts. To check that, all the listings were put into five groups according to their price. 
+
+![Table of price ranges](table-pricerange.png)
+
+The price ranges were chosen that each group contains roughly the same number of listings. We can see that in each group the average rating is close to 92%. The share of superhosts is between 18 and 25 percent.
+
+In the last section we will have a look at the superhost status.
+
+## What influences the superhost staus?
+Airbnb claims that the superhost status can be reached by receiving positive reviews, being responsive, and avoiding cancellations. To verify that a second machine learning model has been created. This model learned to decide whether a listing is by a superhost or not. If AirBnB's claim is true, the features with the highest influence in the model should fit to their explaination of the superhost status.
+
+![Beeswarm plot of features affecting superhost status](beeswarm-superhost.png)
+
+
+![History plot of review scores](histplot-review-sccores.png)
 
 [hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/schumadi/schumadi-schumadi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/schumadi/schumadi-schumadi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
