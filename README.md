@@ -1,23 +1,25 @@
-# AirBnB Ratings Hosts and Superhosts
+# AirBnB - Ratings Hosts and Superhosts
 ![photo of airbnb host Yoshiko][hosts]
 
-Public datasets from Airbnb contain information about
+Kaggle provides public datasets from Airbnb for [Boston](https://www.kaggle.com/datasets/airbnb/boston) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle) These datasets contain information about
 
 * Listings, including full descriptions and average review score
 * Reviews, including unique id for each reviewer and detailed comments
 * Calendar, including listing id and the price and availability for that day
 
-Kaggle provides these datasets for [Boston](https://www.kaggle.com/datasets/airbnb/seattle) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle).
-
-In this article I will take a closer look at the the listings data.
+In this article we will take a closer look at the the listings data.
 
 1. What influences the review scores?
-1. What differenciates superhosts from hosts?
+1. Superhost or hosts: In what way are they different?
   * Which amneties are offered?
   * Are superhosts super-expensive?
-1. What influences the superhost staus?
+3. What influences the superhost staus?
 
-The datasets have a good quality, but of course some preparations are necessary to work with the data.
+The datasets have a good quality, but of course some preparations were necessary to work with the data.
+
+## What influences average review scores?
+In addition to written reviews guests can rate their stay in different categories. More information about this can be found [here](https://www.airbnb.com/help/article/1257/star-ratings).
+![Beeswarm plot of features affecting review scores](https://github.com/schumadi/schumadi-schumadi.github.io/blob/cf76f39ad408761baf0d4e166b9cd460438a05e3/beeswarm-rating.png)
 
 
 [hosts]: https://github.com/schumadi/schumadi-schumadi.github.io/blob/f17a3148c17dda19025d2856563fc0ca3162feb1/hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
