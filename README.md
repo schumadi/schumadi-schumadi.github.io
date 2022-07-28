@@ -38,6 +38,8 @@ We will have a closer look at these superhosts in the following section.
 ## Superhosts and hosts: In what way are they different?
 AirBnB states that one element of becoming a superhost are positive reviews. Positive reviews should lead to good review scores. The following histogram  clearly supports that connection. The review score ratings in general have a quite wide range, but those of superhosts are concentrated in the range from 90 to 100.
 
+![History plot of review scores](histplot-review-sccores.png)
+
 Amneties offered by the hosts are part of the dataset. Therefore it is possible to make a comparison between amneties offered by superhost and non-superhosts. The table below shows the amneties that are offered more often by superhosts than non-superhosts.
 
 ![Table of amneties](table-amneties-top.png)
@@ -57,7 +59,5 @@ Airbnb claims that the superhost status can be reached by receiving positive rev
 
 ![Beeswarm plot of features affecting superhost status](beeswarm-superhost.png)
 
-
-![History plot of review scores](histplot-review-sccores.png)
 
 [hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
