@@ -19,7 +19,8 @@ The datasets have a good quality, but of course some preparations were necessary
 
 ## What influences average review scores?
 In addition to written reviews guests can rate their stay in different categories. More information about this can be found [here](https://www.airbnb.com/help/article/1257/star-ratings).
-![Beeswarm plot of features affecting review scores](https://github.com/schumadi/schumadi-schumadi.github.io/blob/cf76f39ad408761baf0d4e166b9cd460438a05e3/beeswarm-rating.png)
+
+![Beeswarm plot of features affecting review scores](beeswarm-rating.png)
 
 
 [hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
