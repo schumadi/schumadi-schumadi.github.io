@@ -1,4 +1,6 @@
-# AirBnB - Ratings Hosts and Superhosts
+# Do you want to become an AirBnB superhost?
+## What separates regular hosts from superhosts
+
 ![photo of airbnb host Yoshiko][hosts]
 
 Kaggle provides public datasets from Airbnb for [Boston](https://www.kaggle.com/datasets/airbnb/boston) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle) These datasets contain information about
@@ -61,6 +63,10 @@ Airbnb claims that the superhost status can be reached by receiving positive rev
 ![Beeswarm plot of features affecting superhost status](beeswarm-superhost.png)
 
 According to the model the superhost status is achievable by high review scores ratings, a good response rate and by a high number of reviews per month. Of course you need to be a host for some time to become a superhost. We can see that the relevant features indeed fit to AirBnB's explaination very well.
+
+To sum up, we have learned that among other things it needs good ratings and to be responsive to receive the superhost status - as AirBnB states on their website. Next to some amneties good ratings are the stuff that separate superhosts from usual hosts. Superhost offers can be found in the full price range, i.e. superhost does not mean super expensive.
+
+And now it's your turn to find out more interesting things about AirBnB...
 
 
 [hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
