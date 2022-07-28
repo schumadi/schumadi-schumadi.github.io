@@ -28,7 +28,7 @@ The most relevant features in the model were:
 1. host_response_rate
 1. price 
 
-High number of listings tend to decrease the review score. Hosts with a high response rate usually receive better review scores. Some cheap listings had a negative effect on the their review score. Of special interest for us is the second feature 'host_is_superhost'. According to AirBnB superhosts are:
+High number of listings tend to decrease the review score while hosts with a high response rate usually receive better review scores ratings. Some cheap listings had a negative effect on the their review score. Of special interest for us is the second feature 'host_is_superhost'. According to AirBnB superhosts are:
 
 > "Anyone who’s extremely welcoming and experienced at making guests feel like they belong, or anyone who can conjure up an extraordinary Airbnb Experience can become a Superhost.
 > No need to apply—you simply earn Superhost status by **doing things like receiving positive reviews, being responsive, and avoiding cancellations** where possible."  
