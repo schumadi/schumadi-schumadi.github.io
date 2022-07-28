@@ -1,3 +1,23 @@
+# AirBnB Ratings Hosts and Superhosts
+Public datasets from Airbnb contain information about
+
+* Listings, including full descriptions and average review score
+* Reviews, including unique id for each reviewer and detailed comments
+* Calendar, including listing id and the price and availability for that day
+
+Kaggle provides these datasets for [Boston](https://www.kaggle.com/datasets/airbnb/seattle) and [Seattle](https://www.kaggle.com/datasets/airbnb/seattle).
+
+In this article I will take a closer look at the the listings data.
+
+1. What influences the review scores?
+1. What differenciates superhosts from hosts?
+  * Which amneties are offered?
+  * Are superhosts super-expensive?
+1. What influences the superhost staus?
+
+The datasets have a good quality, but of course some preparations are necessary to work with the data.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/schumadi/schumadi-schumadi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -11,7 +31,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# AirBnB Ratings Hosts and Superhosts
+# Header 1
 ## Header 2
 ### Header 3
 
