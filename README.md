@@ -11,6 +11,7 @@ In this article we will take a closer look at the the listings data.
 
 1. What influences average review scores?
 1. Superhost and hosts: In what way are they different?
+  * Do their review scores differ?
   * Which amneties are offered?
   * Are superhosts super-expensive?
 3. What influences the superhost staus?
@@ -18,7 +19,7 @@ In this article we will take a closer look at the the listings data.
 The datasets have a good quality, but of course some preparations were necessary to work with the data.
 
 ## What influences average review scores?
-In addition to written reviews guests can rate their stay in different categories. More information about this can be found [here](https://www.airbnb.com/help/article/1257/star-ratings). To answer that question, a machine learnig model has been trained to compute the review score based on the features from the listings files. The most important features in the model and their influence on the model's result are depicted in the picture below. 
+In addition to written reviews guests can rate their stay in different categories. More information about this can be found [here](https://www.airbnb.com/help/article/1257/star-ratings). To answer the question what influences average review scores, a machine learnig model has been trained to compute the review score based on the features from the listings files. The most important features in the model and their influence on the model's result are depicted in the picture below. 
 
 ![Beeswarm plot of features affecting review scores](beeswarm-rating.png)
 
@@ -40,7 +41,7 @@ AirBnB states that one element of becoming a superhost are positive reviews. Pos
 
 ![History plot of review scores](histplot-review-sccores.png)
 
-Amneties offered by the hosts are part of the dataset. Therefore it is possible to make a comparison between amneties offered by superhost and non-superhosts. The table below shows the amneties that are offered more often by superhosts than non-superhosts.
+Also amneties offered by the hosts are part of the dataset. Therefore it is possible to make a comparison between amneties offered by superhost and non-superhosts. The table below shows the amneties that are offered more often by superhosts than non-superhosts.
 
 ![Table of amneties](table-amneties-top.png)
 
@@ -50,7 +51,7 @@ Apart from amneties the prices for offers by superhosts could be different. At l
 
 ![Table of price ranges](table-pricerange.png)
 
-The price ranges were chosen that each group contains roughly the same number of listings. We can see that in each group the average rating is close to 92%. The share of superhosts is between 18 and 25 percent.
+The price ranges group the listings in bins of a roughly equal size. We can see that in each group the average rating is close to 93%. The share of superhosts is always between 18 and 25 percent. So the superhost status does not mean that the prices are exceptionally high. Offers by superhosts can be found in the complete price range.
 
 In the last section we will have a look at the superhost status.
 
