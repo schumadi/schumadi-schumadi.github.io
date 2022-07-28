@@ -59,5 +59,7 @@ Airbnb claims that the superhost status can be reached by receiving positive rev
 
 ![Beeswarm plot of features affecting superhost status](beeswarm-superhost.png)
 
+According to the model the superhost status is achievable by high review scores ratings, a good response rate and by a high number of reviews per month. Of course you need to be a host for some time to become a superhost. We can see that the relevant features indeed fit to AirBnB's explaination very well.
+
 
 [hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
