@@ -1,4 +1,6 @@
 # AirBnB Ratings Hosts and Superhosts
+![airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)][hosts]
+
 Public datasets from Airbnb contain information about
 
 * Listings, including full descriptions and average review score
@@ -16,6 +18,11 @@ In this article I will take a closer look at the the listings data.
 1. What influences the superhost staus?
 
 The datasets have a good quality, but of course some preparations are necessary to work with the data.
+
+
+[hosts]: https://github.com/schumadi/schumadi-schumadi.github.io/blob/f17a3148c17dda19025d2856563fc0ca3162feb1/hosts.jpg "AirBnB Hosts"
+
+
 
 
 ## Welcome to GitHub Pages
