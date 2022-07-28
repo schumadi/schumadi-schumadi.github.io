@@ -1,5 +1,5 @@
 # AirBnB Ratings Hosts and Superhosts
-![airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)][hosts]
+![photo of airbnb host Yoshiko][hosts]
 
 Public datasets from Airbnb contain information about
 
@@ -20,7 +20,7 @@ In this article I will take a closer look at the the listings data.
 The datasets have a good quality, but of course some preparations are necessary to work with the data.
 
 
-[hosts]: https://github.com/schumadi/schumadi-schumadi.github.io/blob/f17a3148c17dda19025d2856563fc0ca3162feb1/hosts.jpg "AirBnB Hosts"
+[hosts]: https://github.com/schumadi/schumadi-schumadi.github.io/blob/f17a3148c17dda19025d2856563fc0ca3162feb1/hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
 
 
 
