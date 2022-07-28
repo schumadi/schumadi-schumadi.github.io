@@ -22,7 +22,7 @@ In addition to written reviews guests can rate their stay in different categorie
 ![Beeswarm plot of features affecting review scores](https://github.com/schumadi/schumadi-schumadi.github.io/blob/cf76f39ad408761baf0d4e166b9cd460438a05e3/beeswarm-rating.png)
 
 
-[hosts]: https://github.com/schumadi/schumadi-schumadi.github.io/blob/f17a3148c17dda19025d2856563fc0ca3162feb1/hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
+[hosts]: hosts.jpg "airbnb host Yoshiko https://www.flickr.com/photos/tobin/14188971889 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)"
 
 
 
